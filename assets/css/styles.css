@@ -1,0 +1,88 @@
+.pagination > .page-item.active > a, .pagination > .page-item.active > a:focus, .pagination > .page-item.active > a:hover, .pagination > .page-item.active > span,
+ .pagination > .page-item.active > span:focus,
+  .pagination > .page-item.active > span:hover{
+    background-color: #4caf50 !important;
+    border-color: #4caf50 !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(to top, #4caf50 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+.is-focused [class^="bmd-label"], .is-focused [class*=" bmd-label"]{
+    color: #4caf50;
+}
+.form-check .form-check-input:checked ~ .circle{
+    border-color: #4caf50;
+}
+.form-check .form-check-label .circle::before{
+    background-color: #4caf50;
+}
+.form-check .form-check-label .circle .check{
+    background-color: #4caf50;
+}
+.nav-link{
+    color: #fff !important;
+}
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.nav-menu-icon{
+    font-size: 24px !important;
+}
+@media (max-width: 992px) {
+    .navbar-nav{
+        background-color: #43A047;
+        height: 100%;
+    }
+}
+.error-message{
+    display: block;
+    font-size: 12px;
+    color: #d50000;
+    font-weight: bold;
+}
+.success-message{
+    display: block;
+    font-size: 12px;
+    color: #24a00b;
+    font-weight: bold;
+}
+
+.help-button{
+    width: 100%;
+    padding: 12px;
+    margin: 0.3125rem 1px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    -o-transition:color .2s ease-out, background 0.2s ease-in;
+    -ms-transition:color .2s ease-out, background 0.2s ease-in;
+    -moz-transition:color .2s ease-out, background 0.2s ease-in;
+    -webkit-transition:color .2s ease-out, background 0.2s ease-in;
+    transition:color .2s ease-out, background 0.2s ease-in;
+}
+.help-button:hover{
+    background: rgba(0, 0, 0, 0.082);
+}
+.transition-hover{
+    -o-transition:color .2s ease-out, background 0.2s ease-in;
+    -ms-transition:color .2s ease-out, background 0.2s ease-in;
+    -moz-transition:color .2s ease-out, background 0.2s ease-in;
+    -webkit-transition:color .2s ease-out, background 0.2s ease-in;
+    transition:color .2s ease-out, background 0.2s ease-in;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.02); }
