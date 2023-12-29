@@ -1,6 +1,8 @@
 # TheRobux - Web (PHP / MySQL)
 
-TheRobux is an amazing website built with Bootstrap, PHP and MySQL. It provides users with free robux for completing surveys.
+TheRobux is a website built with Bootstrap, PHP and MySQL. It provides users with free robux for completing surveys.
+
+# Screenshots
 
 ![8](https://github.com/mnm967/TheRobuxWeb/assets/67553368/069cc43f-470f-4677-85af-2c6bfeb91564)
 ![7](https://github.com/mnm967/TheRobuxWeb/assets/67553368/ed9814f2-f222-48b6-a00a-5e79c0ad3d04)
